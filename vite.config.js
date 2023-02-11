@@ -6,7 +6,7 @@ import vueJsx from "@vitejs/plugin-vue-jsx";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/vue-mastry/",
+  base: "/vue-mastry-example/",
   plugins: [vue(), vueJsx()],
   resolve: {
     alias: {
